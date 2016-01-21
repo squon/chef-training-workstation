@@ -12,6 +12,9 @@ describe 'workstation::default' do
    describe package ('tree') do
       it {should be_installed}
    end
+   describe package ('git') do
+      it {should be_installed}
+   end
    describe file ("/etc/motd") do
       its (:content) {should match /Property of ...\n/}
       # it {should contain /Property of/}
