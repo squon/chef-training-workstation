@@ -1,7 +1,7 @@
 # package 'nano'
-# package 'emacs'
+package 'emacs'
 # package 'vim'
-# package 'tree'
+package 'tree'
 package 'git'
 # file '/etc/motd' do
 #   content "Property of ...\n"
